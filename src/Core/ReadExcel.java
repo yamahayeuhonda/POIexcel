@@ -77,10 +77,12 @@ public class ReadExcel {
                 }
             }
 
-        } catch (Exception e) {
+            } 
+           } catch (Exception e) {
             e.printStackTrace();
         }
     }
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
