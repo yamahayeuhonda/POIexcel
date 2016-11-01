@@ -9,55 +9,64 @@ package Core;
  */
 public class Staff {
 	
-	private String firstName;
-	private String lastName;
 	private int age;
 	private String sex;
 	private String address;
-	private double phoneNumber;
-	private double identificationnumber;
+	private String first_Name;
+	private String last_Name;
+	private int the_age;
+	private String the_sex;
+	private String the_address;
+	private double the_phoneNumber;
+	private double the_identificationnumber;
 	
-	public String getFirstName() {
-		return firstName;
+	public Staff(){
+		
 	}
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public Staff(String firstname, String lastname, int age, String sex, String address, double phone, double id){
+		
 	}
-	public String getLastName() {
-		return lastName;
+	public String getFirst_Name() {
+		return first_Name;
 	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setFirst_Name(String first_Name) {
+		this.first_Name = first_Name;
 	}
-	public int getAge() {
-		return age;
+	public String getLast_Name() {
+		return last_Name;
 	}
-	public void setAge(int age) {
-		this.age = age;
+	public void setLast_Name(String last_Name) {
+		this.last_Name = last_Name;
 	}
-	public String getSex() {
-		return sex;
+	public int getThe_age() {
+		return the_age;
 	}
-	public void setSex(String sex) {
-		this.sex = sex;
+	public void setThe_age(int the_age) {
+		this.the_age = the_age;
 	}
-	public String getAddress() {
-		return address;
+	public String getThe_sex() {
+		return the_sex;
 	}
-	public void setAddress(String address) {
-		this.address = address;
+	public void setThe_sex(String the_sex) {
+		this.the_sex = the_sex;
 	}
-	public double getPhoneNumber() {
-		return phoneNumber;
+	public String getThe_address() {
+		return the_address;
 	}
-	public void setPhoneNumber(double phoneNumber) {
-		this.phoneNumber = phoneNumber;
+	public void setThe_address(String the_address) {
+		this.the_address = the_address;
 	}
-	public double getIdentificationnumber() {
-		return identificationnumber;
+	public double getThe_phoneNumber() {
+		return the_phoneNumber;
 	}
-	public void setIdentificationnumber(double identificationnumber) {
-		this.identificationnumber = identificationnumber;
+	public void setThe_phoneNumber(double the_phoneNumber) {
+		this.the_phoneNumber = the_phoneNumber;
+	}
+	public double getThe_identificationnumber() {
+		return the_identificationnumber;
+	}
+	public void setThe_identificationnumber(double the_identificationnumber) {
+		this.the_identificationnumber = the_identificationnumber;
 	}
 	
 
