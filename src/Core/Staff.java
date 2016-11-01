@@ -9,9 +9,6 @@ package Core;
  */
 public class Staff {
 	
-	private int age;
-	private String sex;
-	private String address;
 	private String first_Name;
 	private String last_Name;
 	private int the_age;
