@@ -17,6 +17,16 @@ public class Staff {
 	private double the_phoneNumber;
 	private double the_identificationnumber;
 	
+	private void showStaff(){
+		System.out.println("Name: "+ first_Name +" "+ last_Name +"\n"
+				+"Age: "+ the_age + "\n"
+				+"Sex: "+ the_sex + "\n"
+				+"Adress: "+ the_address + "\n"
+				+"Phone: "+ the_phoneNumber + "\n"
+				+"ID: "+ the_identificationnumber
+				);
+	}
+	
 	public Staff(){
 		
 	}
