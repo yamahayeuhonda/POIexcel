@@ -14,25 +14,32 @@ public class Staff {
 	private int the_age;
 	private String the_sex;
 	private String the_address;
-	private double the_phoneNumber;
-	private double the_identificationnumber;
+	private String the_phoneNumber;
+	private long the_identificationnumber;
 	
-	private void showStaff(){
+	public void showStaff(){
 		System.out.println("Name: "+ first_Name +" "+ last_Name +"\n"
 				+"Age: "+ the_age + "\n"
 				+"Sex: "+ the_sex + "\n"
 				+"Adress: "+ the_address + "\n"
 				+"Phone: "+ the_phoneNumber + "\n"
-				+"ID: "+ the_identificationnumber
+				+"ID: "+ the_identificationnumber + "\n"
 				);
 	}
 	
 	public Staff(){
-		
+		return;
 	}
-	public Staff(String firstname, String lastname, int age, String sex, String address, double phone, double id){
-		
+	public Staff(String firstname, String lastname, int age, String sex, String address, String phone, long id){
+		this.first_Name = firstname;
+		this.last_Name = lastname;
+		this.the_age = age;
+		this.the_sex = sex;
+		this.the_address = address;
+		this.the_phoneNumber = phone;
+		this.the_identificationnumber = id;
 	}
+	
 	public String getFirst_Name() {
 		return first_Name;
 	}
@@ -63,17 +70,17 @@ public class Staff {
 	public void setThe_address(String the_address) {
 		this.the_address = the_address;
 	}
-	public double getThe_phoneNumber() {
+	public String getThe_phoneNumber() {
 		return the_phoneNumber;
 	}
-	public void setThe_phoneNumber(double the_phoneNumber) {
-		this.the_phoneNumber = the_phoneNumber;
+	public void setThe_phoneNumber(String d) {
+		this.the_phoneNumber = d;
 	}
-	public double getThe_identificationnumber() {
+	public long getThe_identificationnumber() {
 		return the_identificationnumber;
 	}
-	public void setThe_identificationnumber(double the_identificationnumber) {
-		this.the_identificationnumber = the_identificationnumber;
+	public void setThe_identificationnumber(long d) {
+		this.the_identificationnumber = d;
 	}
 	
 
